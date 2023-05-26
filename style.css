@@ -1,46 +1,49 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    .cabeçalho{
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cabeçalho {
     background-color: lemonchiffon;
     color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 0;
-    }
-    
-    .cabeçalho_imagem{
-    width: 12%;
-    }
-    
-    .cabeçalho_titulo{
-    font-size: 110px;
-    }
-    
-    .cabeçalho_lista_item{
-    margin: 25px 0px 25px 0px;
+    padding: 30px;
+}
+
+.cabeçalho_titulo {
+    font-size: 36px;
+}
+
+.cabeçalho_lista_item {
+    margin: 10px 0;
     font-size: 16px;
-    }
-    
-    .apresentaçao_trabalho{
+}
+
+.apresentaçao_trabalho {
     background-image: linear-gradient(lemonchiffon, #ca7667);
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 20px 0;
-    }
-    
-    .titulo_apresentaçao_trabalho{
-    font-size: 40px;
-    }
-    
-    .imagem_arvore{
-    width: 10%;
-    }
+    padding: 20px;
+}
 
-    .imagem_pimenta{
-        width: 10%;
-    }
+.titulo_apresentaçao_trabalho {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.imagem_arvore,
+.imagem_pimenta {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Adicione estilos adicionais conforme necessário */
