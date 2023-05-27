@@ -1,69 +1,80 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Estilos globais */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.cabeçalho {
-    background-color: lemonchiffon;
-    color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: end;
-    padding: 30px;
-}
-
-.cabeçalho_titulo {
-    font-size: 36px;
-}
-
-.cabeçalho {
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-.apresentaçao_trabalho {
-    background-image: linear-gradient(lemonchiffon, #ca7667);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container {
+    max-width: 960px;
+    margin: 0 auto;
     padding: 20px;
 }
 
-.titulo_apresentaçao_trabalho {
-    font-size: 28px;
-    margin-bottom: 20px;
+/* Estilos do cabeçalho */
+.header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
 }
 
-.imagem_arvore,
-.imagem_pimenta {
-    width: 100%;
-    max-width: 400px;
+.title {
+    font-size: 32px;
+    color: #333;
+    margin-top: 0;
 }
 
-.cabeçalho_lista {
+.navbar {
     display: flex;
     justify-content: flex-end;
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .cabeçalho_lista_item {
-    display: inline-block;
-    margin-left: 10px;
-  }
+    margin-top: 20px;
+}
 
-  .titulo_destaque{
-    text-align: center;
-    color: #ff0000;
-    font-size: 32px;
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+    display: inline;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #333;
     font-weight: bold;
-    margin-top: 30px;
-  }
-    
+}
+
+/* Estilos das seções */
+.section {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.section-image {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+
+/* Estilos específicos */
+#overview {
+    background-color: #f8f8f8;
+}
+
+#characteristics {
+    background-color: #fff;
+}
+
+#cultivation {
+    background-color: #f8f8f8;
+}
+
+#recipes {
+    background-color: #fff;
+}
