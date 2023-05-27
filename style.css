@@ -49,4 +49,6 @@ body {
 
 .cabeçalho_lista_item {
     text-align: right;
+    border: #ca7667;
+
 }
