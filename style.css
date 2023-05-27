@@ -59,9 +59,11 @@ body {
     margin-left: 10px;
   }
 
-  .titulo_destaque {
+  .titulo_destaque{
     text-align: center;
     color: #ff0000;
     font-size: 32px;
     font-weight: bold;
     margin-top: 30px;
+  }
+    
