@@ -21,10 +21,14 @@ body {
     font-size: 36px;
 }
 
+.cabeçalho {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .cabeçalho_lista_item {
-    margin: 10px 0;
-    font-size: 16px;
-    display: inline-flex;
+    margin-right: 0;
+}
 }
 
 .apresentaçao_trabalho {
