@@ -47,7 +47,15 @@ body {
     max-width: 400px;
 }
 
-.cabeçalho_lista_item {
-    text-align: center;
-
+.cabeçalho_lista {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cabeçalho_lista_item {
+    display: inline-block;
+    margin-left: 10px;
+  }
 }
