@@ -26,10 +26,6 @@ body {
     justify-content: flex-end;
 }
 
-.cabeçalho_lista_item {
-    margin-right: 1;
-}
-}
 
 .apresentaçao_trabalho {
     background-image: linear-gradient(lemonchiffon, #ca7667);
