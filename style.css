@@ -58,5 +58,6 @@ body {
 
 .section-image {
     max-width: 300px;
+    height: auto;
     margin-top: 10px;
 }
