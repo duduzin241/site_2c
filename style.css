@@ -12,25 +12,25 @@
   
   .header {
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
   }
   
   .title {
     color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 30px;
+    margin-bottom: -1px;
   }
   
   .navigation-bar {
-    background-color: #333;
-    padding: 10px;
+    background-color: #362d2d;
+    padding: 5px;
   }
   
   .nav-list {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: right;
   }
   
   .nav-item {
@@ -54,14 +54,14 @@
   
   .section-subtitle {
     color: #666;
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 20px;
   }
   
   .section-image {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
+    display:;
+    margin: 10px auto;
+    max-width: 50%;
   }
   
 
