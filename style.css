@@ -1,78 +1,95 @@
-body {
-    background-color: #f5f7fa;
-    color: #333;
-    font-family: Arial, sans-serif;
+
+* {
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  .header {
+    background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.title {
-    font-size: 30px;
-    margin: 1;
-}
-
-.navigation-bar {
-    background-color: #333;
-}
-
-.nav-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.nav-item {
-    float: left;
-}
-
-.nav-item a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.nav-item a:hover {
-    background-color: #555;
-}
-
-.section {
-    padding: 40px;
-    background-color: #fff;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.section-title {
-    font-size: 24px;
-    margin-top: 0;
-}
-
-.section-subtitle {
-    font-size: 18px;
-}
-
-.section-image {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.section a {
+  }
+  
+  .title {
     color: #333;
-    text-decoration: underline;
-}
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .navigation-bar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-item a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 20px;
+  }
+  
+  .section-title {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .section-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  
 
-.section a:hover {
-    color: #555;
-}
+  #overview {
+    background-color: #f9f9f9;
+  }
+  
+  #caracteristicas {
+    background-color: #fff;
+  }
+  
+  #cultivo {
+    background-color: #f9f9f9;
+  }
+  
+  #receitas {
+    background-color: #fff;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .nav-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-item {
+      margin: 10px 0;
+    }
+  }
+  
