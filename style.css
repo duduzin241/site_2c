@@ -61,6 +61,12 @@
     margin: 20px auto;
     max-width: 50%;
   }
+  .section-image-arvore {
+    display: flex;
+    right: auto;
+    
+  }
+
   
   #overview {
     background-color: #f9f9f9;
