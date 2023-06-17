@@ -1,74 +1,78 @@
 body {
-    background-color: hsl(0, 17%, 92%);
+    background-color: #f5f7fa;
     color: #333;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  header {
+}
+
+header {
     background-color: #fff;
     padding: 20px;
     text-align: center;
-  }
-  
-  .title {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
     font-size: 30px;
-    margin: 0;
-  }
-  
-  .navigation-bar {
+    margin: 1;
+}
+
+.navigation-bar {
     background-color: #333;
-  }
-  
-  .nav-list {
+}
+
+.nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
     float: left;
-  }
-  
-  .nav-item a {
+}
+
+.nav-item a {
     display: block;
     color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  .nav-item a:hover {
+}
+
+.nav-item a:hover {
     background-color: #555;
-  }
-  
-  .section {
+}
+
+.section {
     padding: 40px;
-  }
-  
-  .section-title {
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
     font-size: 24px;
-  }
-  
-  .section-subtitle {
+    margin-top: 0;
+}
+
+.section-subtitle {
     font-size: 18px;
-  }
-  
-  .section-image {
-    max-width: 50%;
+}
+
+.section-image {
+    max-width: 100%;
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-  
-  .section a {
+}
+
+.section a {
     color: #333;
     text-decoration: underline;
-  }
-  
-  .section a:hover {
+}
+
+.section a:hover {
     color: #555;
-  }
-  
+}
