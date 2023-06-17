@@ -12,27 +12,27 @@ body {
     text-align: center;
   }
   
-  .título {
+  .title {
     font-size: 30px;
     margin: 0;
   }
   
-  .barra-navegação {
+  .navigation-bar {
     background-color: #333;
   }
   
-  .lista-nav {
+  .nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
   
-  .item-nav {
+  .nav-item {
     float: left;
   }
   
-  .item-nav a {
+  .nav-item a {
     display: block;
     color: #fff;
     text-align: center;
@@ -40,35 +40,35 @@ body {
     text-decoration: none;
   }
   
-  .item-nav a:hover {
+  .nav-item a:hover {
     background-color: #555;
   }
   
-  .seção {
+  .section {
     padding: 40px;
   }
   
-  .título-seção {
+  .section-title {
     font-size: 24px;
   }
   
-  .subtítulo-seção {
+  .section-subtitle {
     font-size: 18px;
   }
   
-  .imagem-seção {
+  .section-image {
     max-width: 50%;
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
   }
   
-  .seção a {
+  .section a {
     color: #333;
     text-decoration: underline;
   }
   
-  .seção a:hover {
+  .section a:hover {
     color: #555;
   }
   
