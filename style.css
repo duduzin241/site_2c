@@ -43,9 +43,23 @@
   }
   
   .section {
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
   
+  .section-cultivo {
+    flex: 1;
+  }
+  
+  .section-image-arvore {
+    flex: 1;
+    margin-left: 20px;
+  }
+
+
+
   .section-title {
     color: #333;
     font-size: 20px;
@@ -72,15 +86,8 @@
     float:right;
     
   }
-  .section-cultivo {
+  
 
-    overflow: hidden; 
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-   -webkit-box-orient: vertical; 
-
-  }
 
 
 
